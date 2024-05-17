@@ -422,8 +422,8 @@ body {
 
 :has(.state-layer) {
   position: relative;
-  overflow: hidden;
   isolation: isolate;
+  overflow: auto;
   -webkit-user-select: none;
   user-select: none;
 }
