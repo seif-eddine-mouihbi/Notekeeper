@@ -39,7 +39,7 @@ export const NavItem = function (id, name) {
       data-tooltip="Edit notebook"
       data-edit-btn
     >
-      <span class="material-symbols-rounded" aria-hidden="true">edit</span>
+      <span class="material-symbols-rounded" aria-hidden="true" translate="no">edit</span>
       <div class="state-layer"></div>
     </button>
 
@@ -49,7 +49,7 @@ export const NavItem = function (id, name) {
       data-tooltip="Delete notebook"
       data-delete-btn
     >
-      <span class="material-symbols-rounded" aria-hidden="true">delete</span>
+      <span class="material-symbols-rounded" aria-hidden="true" translate="no">delete</span>
       <div class="state-layer"></div>
     </button>
 
