@@ -41,7 +41,7 @@ export const Card = function (noteData) {
         data-tooltip="Delete note"
         data-delete-btn
       >
-        <span class="material-symbols-rounded" aria-hidden="true">delete</span>
+        <span class="material-symbols-rounded" aria-hidden="true" translate="no">delete</span>
         <div class="state-layer"></div>
       </button>
     </div>

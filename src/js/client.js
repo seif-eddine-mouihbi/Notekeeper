@@ -27,7 +27,7 @@ const /** {Array<HTMLElement} */ $noteCreateBtns = document.querySelectorAll(
   );
 
 const /** {string} */ emptyNotesTemplate = `<div class="empty-notes">
-    <span class="material-symbols-rounded" aria-hidden="true">note_stack</span>
+    <span class="material-symbols-rounded" aria-hidden="true" translate="no">note_stack</span>
 
     <div class="text-headline-small">No notes</div>
   </div>`;

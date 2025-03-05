@@ -26,7 +26,7 @@ const NoteModal = function (
   $modal.classList.add("modal");
   $modal.innerHTML = `
     <button class="icon-btn large" aria-label="Close modal">
-      <span class="material-symbols-rounded" aria-hidden="true" data-close-btn>close</span>
+      <span class="material-symbols-rounded" aria-hidden="true" translate="no" data-close-btn>close</span>
       <div class="state-layer"></div>
     </button>
 
